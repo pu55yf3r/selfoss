@@ -29,7 +29,7 @@ class ViewHelper {
         }
 
         foreach ($searchWords as $word) {
-            $content = preg_replace('/(?!<[^<>])(' . $word . ')(?![^<>]*>)/i', '<span class="found">$0</span>', $content);
+            $content = preg_replace('/(?!<[^<>])(' . preg_quote($word, '/') . ')(?![^<>]*>)/i', '<span class="found">$0</span>', $content);
         }
 
         return $content;
