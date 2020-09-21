@@ -16,7 +16,8 @@
     "jquery-hotkeys": "^0.2.2",
     "ramda": "^0.27.1",
     "reset-css": "^5.0.1",
-    "spectrum-colorpicker": "^1.8.1"
+    "spectrum-colorpicker": "^1.8.1",
+    "unreset-css": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
@@ -28,6 +29,7 @@
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-sw-cache": "^0.3.1",
     "prettier": "^2.0.0",
+    "sass": "^1.26.11",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
